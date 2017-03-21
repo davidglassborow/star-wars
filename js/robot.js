@@ -1,6 +1,6 @@
 Game.Robot = function() {
 	Game.Being.call(this);
-	this._char = "D";
+	this._char = "🤖";
 	this._color = "#bb9";
 	this._hp = Game.Rules.HP_ROBOT;
 	this._deathSound = "robot";

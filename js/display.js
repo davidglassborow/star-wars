@@ -194,15 +194,15 @@ Game.Display.prototype._drawTerrain = function(x, y) {
 	var terrain = Game.terrain.get(x, y);
 	switch (terrain) {
 		case Game.Terrain.TYPE_ROCK:
-			this.draw(ox, oy, "*", "#ccc");
+			this.draw(ox, oy, "🌴", "#ccc");
 		break;
 
 		case Game.Terrain.TYPE_TREE:
-			this.draw(ox, oy, "T", "#090");
+			this.draw(ox, oy, "🌲", "#090");
 		break;
 
 		case Game.Terrain.TYPE_LAND:
-			this.draw(ox, oy, "·", "#960");
+			this.draw(ox, oy, "·", "#630");
 		break;
 	}
 

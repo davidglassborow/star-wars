@@ -2,7 +2,7 @@ Game.Player = function(type) {
 	Game.SaberUser.call(this, type);
 	
 	this._name = "you";
-	this._char = "@";
+	this._char = "👤";
 	this._pendingDirection = null;
 
 	this._maxHP = Game.Rules.HP_PLAYER;

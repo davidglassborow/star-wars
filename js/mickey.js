@@ -1,6 +1,6 @@
 Game.Mickey = function() {
 	Game.Being.call(this);
-	this._char = "M";
+	this._char = "🐭";
 	this._deathSound = "mickey";
 	this._color = ["#faa", "#afa", "#aaf", "#ff8", "#f8f", "#8ff"].random();
 	this._hp = Game.Rules.HP_MICKEY;

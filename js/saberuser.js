@@ -2,7 +2,7 @@ Game.SaberUser = function(type) {
 	Game.Being.call(this);
 	
 	this._type = type;
-	this._char			= (type == "jedi" ? "j" : "s");
+	this._char			= (type == "jedi" ? "😇" : "😈");
 	this._color			= (type == "jedi" ? "#fff" : "#888");
 	this._saberColor	= (type == "jedi" ? "#33f" : "#f33");
 
